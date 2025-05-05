@@ -407,6 +407,11 @@ margin-top: 3%;
 }
 
 @media screen and (min-width:759px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100%;
+    }
     .productdopdiscriptionblockcontent{
         display: flex;
         justify-content: space-around;
